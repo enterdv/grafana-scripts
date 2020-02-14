@@ -37,3 +37,8 @@ Script to import dashboards into Grafana
 
     -h      Display this help and exit.
 ```
+Example
+---
+```shell script
+./backup_dash_macos.sh -t http://localhost:3000  -k <secret_token> -p dashboards
+```
